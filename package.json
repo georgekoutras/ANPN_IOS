@@ -1,0 +1,35 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/datetimepicker": "3.5.2",
+    "@react-native-picker/picker": "1.16.1",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "expo": "^42.0.0",
+    "expo-application": "^3.2.0",
+    "expo-constants": "^11.0.1",
+    "expo-device": "^3.3.0",
+    "expo-firebase-analytics": "~4.1.0",
+    "expo-notifications": "~0.12.3",
+    "expo-updates": "^0.8.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-screens": "~3.4.0",
+    "react-native-web": "~0.13.12",
+    "sentry-expo": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "private": true
+}

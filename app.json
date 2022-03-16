@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Anapneo",
+    "slug": "Anapneo",
+    "version": "1.0.9",
+    "privacy": "public",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "openit",
+            "project": "anapneo",
+            "authToken": "c632ebc3205643f3877da59d9ba8ac6c467145d3ba4448d89132c7456173db8f",
+            "release": "anapneo@1.0.9"
+          }
+        }
+      ]
+    },
+    "android": {
+      "package": "gr.openit.AnapneoApp",
+      "versionCode": 9,
+      "permissions": [],
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "gr.openit.AnapneoApp",
+      "buildNumber": "1.0.9",
+      "supportsTablet": true
+    }
+  }
+}

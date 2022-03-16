@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935501322459",
+    "project_id": "anapneoproject",
+    "storage_bucket": "anapneoproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935501322459:android:1e4805729bb468875a94fe",
+        "android_client_info": {
+          "package_name": "gr.openit.AnapneoApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935501322459-h3vc2m77vcfuu9t9hvg1tk1jo1vc7qun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsiA6bzKl8YURhgUklEQZTKkiJ3mNvUzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935501322459-h3vc2m77vcfuu9t9hvg1tk1jo1vc7qun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
